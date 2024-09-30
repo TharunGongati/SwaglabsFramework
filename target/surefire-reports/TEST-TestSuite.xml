@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="491.543" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="416.389" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire4511273146103174390\surefirebooter-20240930170016045_3.jar C:\Users\HP\AppData\Local\Temp\surefire4511273146103174390 2024-09-30T17-00-15_318-jvmRun1 surefire-20240930170016045_1tmp surefire_0-20240930170016045_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire13126700095338604773\surefirebooter-20240930173125773_3.jar C:\Users\HP\AppData\Local\Temp\surefire13126700095338604773 2024-09-30T17-31-25_192-jvmRun1 surefire-20240930173125773_1tmp surefire_0-20240930173125773_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\HP\Desktop\AUTOMATION\JAVA\javapractise\FrameWorkDesign\target\test-classes;C:\Users\HP\Desktop\AUTOMATION\JAVA\javapractise\FrameWorkDesign\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\HP\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire4511273146103174390\surefirebooter-20240930170016045_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire13126700095338604773\surefirebooter-20240930173125773_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="ValidateUrl" classname="com.Swaglabs.TestCase.LoginPageTest" time="0.411">
+  <testcase name="ValidateUrl" classname="com.Swaglabs.TestCase.LoginPageTest" time="1.135">
     <system-out><![CDATA[Execution started
 Test execution started: ValidateUrl
 The Url is Valid ......
@@ -67,17 +67,17 @@ Test success: ValidateUrl
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sep 30, 2024 5:01:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 30, 2024 5:33:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateTitle" classname="com.Swaglabs.TestCase.LoginPageTest" time="0.094">
+  <testcase name="ValidateTitle" classname="com.Swaglabs.TestCase.LoginPageTest" time="0.002">
     <system-out><![CDATA[Test execution started: ValidateTitle
 The Title is Valid ......
 Test success: ValidateTitle
 ]]></system-out>
   </testcase>
-  <testcase name="ValidateProductDetails" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.135">
+  <testcase name="ValidateProductDetails" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.14">
     <system-out><![CDATA[Execution Finish
 Execution started
 Test execution started: ValidateProductDetails
@@ -91,60 +91,60 @@ Test.allTheThings() T-Shirt (Red)
 ValidateProductDetails  success
 Test success: ValidateProductDetails
 ]]></system-out>
-    <system-err><![CDATA[Sep 30, 2024 5:02:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 30, 2024 5:35:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateSelection" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.265">
+  <testcase name="ValidateSelection" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.002">
     <system-out><![CDATA[Test execution started: ValidateSelection
 ValidateSelection Sucess
 Test success: ValidateSelection
 ]]></system-out>
   </testcase>
-  <testcase name="ValidateAddToCart" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.002">
+  <testcase name="ValidateAddToCart" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.045">
     <system-out><![CDATA[Test execution started: ValidateAddToCart
 ValidateAddToCart Success
 Test success: ValidateAddToCart
 ]]></system-out>
   </testcase>
-  <testcase name="openCart" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.002">
+  <testcase name="openCart" classname="com.Swaglabs.TestCase.InventoryPageTest" time="0.092">
     <system-out><![CDATA[Test execution started: openCart
 OpenCart
 Test success: openCart
 ]]></system-out>
   </testcase>
-  <testcase name="ValidateRemove" classname="com.Swaglabs.TestCase.CartPageTest" time="0.066">
+  <testcase name="ValidateRemove" classname="com.Swaglabs.TestCase.CartPageTest" time="0.054">
     <system-out><![CDATA[Execution Finish
 Execution started
 Test execution started: ValidateRemove
 Product removed from cart!
 Test success: ValidateRemove
 ]]></system-out>
-    <system-err><![CDATA[Sep 30, 2024 5:03:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 30, 2024 5:36:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
 ]]></system-err>
   </testcase>
-  <testcase name="validatecontinueShoping" classname="com.Swaglabs.TestCase.CartPageTest" time="0.386">
+  <testcase name="validatecontinueShoping" classname="com.Swaglabs.TestCase.CartPageTest" time="0.535">
     <system-out><![CDATA[Test execution started: validatecontinueShoping
 Test success: validatecontinueShoping
 ]]></system-out>
   </testcase>
-  <testcase name="navigateToCheckoutPage" classname="com.Swaglabs.TestCase.CartPageTest" time="0.091">
+  <testcase name="navigateToCheckoutPage" classname="com.Swaglabs.TestCase.CartPageTest" time="0.155">
     <system-out><![CDATA[Test execution started: navigateToCheckoutPage
 Test success: navigateToCheckoutPage
 ]]></system-out>
   </testcase>
-  <testcase name="ValidateOverview" classname="com.Swaglabs.TestCase.CheckOutPageTest" time="0.929">
+  <testcase name="ValidateOverview" classname="com.Swaglabs.TestCase.CheckOutPageTest" time="0.921">
     <system-out><![CDATA[Execution Finish
 Execution started
 Test execution started: ValidateOverview
 Test success: ValidateOverview
 ]]></system-out>
-    <system-err><![CDATA[Sep 30, 2024 5:05:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 30, 2024 5:37:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
 ]]></system-err>
   </testcase>
-  <testcase name="validateSummary" classname="com.Swaglabs.TestCase.OverviewPageTest" time="0.304">
+  <testcase name="validateSummary" classname="com.Swaglabs.TestCase.OverviewPageTest" time="0.032">
     <system-out><![CDATA[Execution Finish
 Execution started
 Test execution started: validateSummary
@@ -166,11 +166,11 @@ Cancel
 Finish
 Test success: validateSummary
 ]]></system-out>
-    <system-err><![CDATA[Sep 30, 2024 5:07:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 30, 2024 5:37:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
 ]]></system-err>
   </testcase>
-  <testcase name="validateCompleteOrder" classname="com.Swaglabs.TestCase.OverviewPageTest" time="0.319">
+  <testcase name="validateCompleteOrder" classname="com.Swaglabs.TestCase.OverviewPageTest" time="0.082">
     <system-out><![CDATA[Test execution started: validateCompleteOrder
 Final Order status: Thank you for your order!
 Test success: validateCompleteOrder

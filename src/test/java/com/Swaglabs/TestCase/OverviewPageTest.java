@@ -19,6 +19,10 @@ public class OverviewPageTest extends BaseTest
 		 cop.checkout(prop.getData("fname"), prop.getData("lname"), prop.getData("pcode"));
 		
 	}
+  @Test(priority=3)
+	public void update() {
+		System.out.println("Making Changes");
+	}
 	
 @Test(priority=1)
 public void validateSummary()
