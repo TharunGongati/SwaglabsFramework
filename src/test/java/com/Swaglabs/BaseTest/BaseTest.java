@@ -35,6 +35,7 @@ public class BaseTest
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		driver.get(prop.getData("bname"));
+		driver.manage().window().maximize();
 		driver.navigate().to(prop.getData("url"));
 		lp=new LoginPage(driver);
 		ip=new InventoryPage(driver);

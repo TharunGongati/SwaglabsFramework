@@ -33,6 +33,10 @@ public class CheckOutPage extends BaseTest
 	
 	//actionmethods
 	
+	public void update() {
+		System.out.println("Making Changes");
+	}
+	
 	public OverviewPage checkout(String name,String lname, String zipcode) {
 		Firstname.sendKeys(name);
 		Lastname.sendKeys(lname);
